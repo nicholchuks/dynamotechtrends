@@ -1,0 +1,184 @@
+.about {
+  max-width: 1330px;
+  background-color: #fff;
+  height: auto;
+  margin: 0 auto;
+}
+
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 290px;
+  margin-bottom: 50px;
+  line-height: 28px;
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://dynamotechtrends.com/wp-content/uploads/2023/08/solar_1.jpeg);
+}
+
+.img .about_title {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0;
+}
+
+.about_title h1 {
+  font-size: 28px;
+  color: #fff;
+}
+
+article {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 720px;
+  max-width: 1140px;
+}
+
+article p {
+  margin-bottom: 25px;
+  color: rgb(51, 51, 51);
+  line-height: 28px;
+}
+
+article .p1 {
+  font-style: italic;
+}
+
+article h1 {
+  font-size: 36px;
+}
+article .h1 {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000;
+}
+
+.article2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 28px;
+}
+
+.article2 h2 {
+  margin-top: 30px;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000;
+}
+
+.article2 p {
+  margin-bottom: 25px;
+}
+
+.hr {
+  border-top: 1px solid #e2e3e7;
+  border-bottom: none;
+  max-width: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.h12 {
+  margin-top: 30px;
+  font-size: 36px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000;
+}
+
+@media (min-width: 782px) {
+  article {
+    width: 1140px;
+  }
+  .article2 {
+    /* flex-direction: row; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .article2_left {
+    padding-right: 15px;
+    /* flex-basis: 50%; */
+  }
+
+  .article2_right {
+    padding-left: 15px;
+    /* flex-basis: 50%; */
+  }
+}
+
+.article3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.article3 h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000;
+}
+
+.article3 p {
+  margin-bottom: 25px;
+}
+
+@media (min-width: 782px) {
+  .article3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .article3_1 {
+    padding-right: 15px;
+  }
+
+  .article2_2 {
+    padding-left: 15px;
+  }
+
+  .article3_3 {
+    padding-right: 15px;
+  }
+
+  .article2_4 {
+    padding-left: 15px;
+  }
+}
+
+.article4 h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  color: #000;
+}
+
+.article4 p {
+  margin-bottom: 25px;
+}
+
+.founder {
+  text-align: center;
+}

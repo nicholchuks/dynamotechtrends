@@ -1,0 +1,141 @@
+.contact {
+  max-width: 1330px;
+  background-color: #fff;
+  height: auto;
+  margin: 0 auto;
+}
+
+.img2 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 290px;
+  margin-bottom: 50px;
+  line-height: 28px;
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(http://wp.magnium-themes.com/saxon/saxon-1/wp-content/uploads/2018/10/saxon-00031-1.jpg);
+}
+
+.img2 .contact_title2 {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0;
+}
+
+.contact_title2 h1 {
+  font-size: 28px;
+  color: #fff;
+}
+
+article {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 720px;
+  max-width: 1140px;
+}
+
+.article2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 28px;
+}
+
+.founder h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000;
+}
+
+.founder p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.display,
+label,
+input {
+  display: inline-block;
+}
+
+.display2 {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 55px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #e2e3e7;
+  background-color: #ffffff;
+  padding: 6px 13px;
+  color: #000;
+  vertical-align: middle;
+  line-height: 26px;
+}
+
+.btn2 {
+  display: inline-block;
+  width: 160px;
+  height: 40px;
+  padding: 13px 30px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  border: rgb(69, 159, 63);
+  background-color: rgb(69, 159, 63);
+}
+
+@media (min-width: 992px) {
+  article {
+    width: 1140px;
+  }
+
+  .article2 {
+    flex-direction: row;
+  }
+
+  .display2 {
+    /* flex-direction: row; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .display2_1 {
+    padding-right: 15px;
+  }
+
+  .display2_2 {
+    padding-left: 15px;
+  }
+}
