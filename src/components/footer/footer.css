@@ -67,10 +67,6 @@ footer {
 .footer_socials_links .box {
   display: block;
   align-items: center;
-  /* width: 100%; */
-  /* margin-top: 10px; */
-  /* padding: 5px;
-  transition: 0.5s; */
   border: none;
   outline: none;
   background: none;
@@ -109,7 +105,7 @@ button {
   color: rgb(255, 255, 255);
   line-height: 12px;
   letter-spacing: 1px;
-  transition: 5000ms ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn .btn_primary:hover {
@@ -149,7 +145,7 @@ button {
   line-height: 22.75px;
   letter-spacing: 2px;
   cursor: pointer;
-  transition: 5000ms ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .category_link a:hover {
@@ -189,8 +185,6 @@ button {
     grid-template-columns: 1fr 1fr;
     padding-top: 65px;
     border-top: 1px solid #e2e3e7;
-    /* margin-right: 9.5px;
-    margin-left: 9.5px; */
   }
 
   .footer_left {
@@ -226,6 +220,5 @@ button {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    /* max-width: 1170px; */
   }
 }
