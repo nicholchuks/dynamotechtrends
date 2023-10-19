@@ -6,6 +6,8 @@
 }
 
 .img2 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(http://wp.magnium-themes.com/saxon/saxon-1/wp-content/uploads/2018/10/saxon-00031-1.jpg);
   background-size: cover;
   background-position: 60% 60%;
   background-repeat: no-repeat;
@@ -14,8 +16,6 @@
   margin-bottom: 50px;
   line-height: 28px;
   position: relative;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(http://wp.magnium-themes.com/saxon/saxon-1/wp-content/uploads/2018/10/saxon-00031-1.jpg);
 }
 
 .img2 .contact_title2 {
@@ -39,7 +39,7 @@ article {
   margin-right: auto;
   margin-left: auto;
   width: 720px;
-  max-width: 1140px;
+  /* max-width: 1140px; */
 }
 
 .article2 {

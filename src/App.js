@@ -41,8 +41,8 @@ function App() {
       <>
         <Route path="/" element={<Home />}></Route>
         <Route element={<Layout />}>
-          <Route path="contact" element={<Contact />}></Route>
-          <Route exact path="about" element={<About />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route exact path="/about" element={<About />}></Route>
         </Route>
       </>
     )

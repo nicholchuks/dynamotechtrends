@@ -37,13 +37,13 @@ const Header = () => {
         <div className="nav_lists">
           <ul>
             <li>
-              <NavLink to="#home">Home</NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="#about">About</NavLink>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <NavLink to="#contact">Contact</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>
@@ -80,13 +80,13 @@ const Header = () => {
       <div className="nav_items">
         <ul className={`nav_item ${isOpen ? "open" : ""}`}>
           <li>
-            <NavLink to="#home">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="#about">About</NavLink>
+            <NavLink to="/about">About</NavLink>
           </li>
           <li>
-            <NavLink to="#contact">Contact</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
         </ul>
       </div>

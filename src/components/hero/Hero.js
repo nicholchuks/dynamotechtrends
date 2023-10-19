@@ -38,6 +38,7 @@ const Hero = () => {
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    autoplay: true,
   };
   return (
     <div>

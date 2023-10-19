@@ -6,6 +6,9 @@
 }
 
 .img {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://dynamotechtrends.com/wp-content/uploads/2023/08/solar_1.jpeg);
+  display: block;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -13,8 +16,6 @@
   margin-bottom: 50px;
   line-height: 28px;
   position: relative;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(https://dynamotechtrends.com/wp-content/uploads/2023/08/solar_1.jpeg);
 }
 
 .img .about_title {
@@ -38,7 +39,7 @@ article {
   margin-right: auto;
   margin-left: auto;
   width: 720px;
-  max-width: 1140px;
+  /* max-width: 1140px; */
 }
 
 article p {
